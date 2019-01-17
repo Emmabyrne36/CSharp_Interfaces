@@ -43,7 +43,7 @@ namespace InterfacesExample.Sample3
                     ingredients.Add("Pepperoni");
                     break;
                 case "Vegetarian":
-                    ingredients.AddRange();
+                    ingredients.AddRange(new List<string> { "Sweetcorn", "Tomatoes", "Mixed peppers" });
                     break;
                 case "Tandori Chicken":
                     ingredients.AddRange(new List<string> { "Pepperoni", "Smoked bacon", "Tomatoes", "Mixed peppers" });
