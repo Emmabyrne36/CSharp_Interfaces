@@ -1,6 +1,7 @@
 ﻿using System;
 using InterfacesExample.Sample1;
 using InterfacesExample.Sample2;
+using InterfacesExample.Sample3;
 
 namespace InterfacesExample
 {
@@ -13,6 +14,8 @@ namespace InterfacesExample
 
             // Code for sample 2 obtained from Interfaces tutorial found at: http://www.newthinktank.com/2017/02/c-tutorial-10/
             Sample2();
+
+            Sample3();
         }
 
         private static void Sample1()
@@ -40,6 +43,12 @@ namespace InterfacesExample
             powBut.Execute();
             TV.VolumeUp();
             powBut.Undo();
+        }
+
+        private static void Sample3()
+        {
+            IPizza pizza = OrderPizza.Order("Vegetarian", "Large");
+            OrderPizza.ReviewOrder(pizza);
         }
     }
 }
