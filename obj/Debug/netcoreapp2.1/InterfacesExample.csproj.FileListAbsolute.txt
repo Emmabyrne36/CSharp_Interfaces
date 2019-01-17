@@ -1,0 +1,11 @@
+C:\Users\emma.byrne\Downloads\InterfacesExample\bin\Debug\netcoreapp2.1\InterfacesExample.deps.json
+C:\Users\emma.byrne\Downloads\InterfacesExample\bin\Debug\netcoreapp2.1\InterfacesExample.runtimeconfig.json
+C:\Users\emma.byrne\Downloads\InterfacesExample\bin\Debug\netcoreapp2.1\InterfacesExample.runtimeconfig.dev.json
+C:\Users\emma.byrne\Downloads\InterfacesExample\bin\Debug\netcoreapp2.1\InterfacesExample.dll
+C:\Users\emma.byrne\Downloads\InterfacesExample\bin\Debug\netcoreapp2.1\InterfacesExample.pdb
+C:\Users\emma.byrne\Downloads\InterfacesExample\obj\Debug\netcoreapp2.1\InterfacesExample.csprojAssemblyReference.cache
+C:\Users\emma.byrne\Downloads\InterfacesExample\obj\Debug\netcoreapp2.1\InterfacesExample.csproj.CoreCompileInputs.cache
+C:\Users\emma.byrne\Downloads\InterfacesExample\obj\Debug\netcoreapp2.1\InterfacesExample.AssemblyInfoInputs.cache
+C:\Users\emma.byrne\Downloads\InterfacesExample\obj\Debug\netcoreapp2.1\InterfacesExample.AssemblyInfo.cs
+C:\Users\emma.byrne\Downloads\InterfacesExample\obj\Debug\netcoreapp2.1\InterfacesExample.dll
+C:\Users\emma.byrne\Downloads\InterfacesExample\obj\Debug\netcoreapp2.1\InterfacesExample.pdb
