@@ -9,12 +9,12 @@ namespace InterfacesExample.Sample3
         {
             IPizza preparedPizza;
 
-            switch (pizza.GetType().ToString())
+            switch (pizza.ToLower())
             {
-                case "Pepperoni":
+                case "pepperoni":
                     preparedPizza = new PepperoniPizza(size);
                     break;
-                case "Vegetarian":
+                case "vegetarian":
                     preparedPizza = new VegetarianPizza(size);
                     break;
                 default:
@@ -30,7 +30,7 @@ namespace InterfacesExample.Sample3
 
         public static void ReviewOrder(IPizza pizza)
         {
-            Console.WriteLine($"The pizza you ordered was a {pizza.Size} with ");
+            Console.Write($"The pizza you ordered was a {pizza.Size} {pizza.ToString()} pizza with ");
             pizza.Toppings.ForEach(t => PrintToppings(pizza, t));
         }
 

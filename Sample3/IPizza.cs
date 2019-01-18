@@ -9,5 +9,6 @@ namespace InterfacesExample.Sample3
 
         void Prepare(List<string> toppings);
         void Cook();
+        string ToString();
     }
 }

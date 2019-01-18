@@ -28,5 +28,10 @@ namespace InterfacesExample.Sample3
             // Add the toppings to the pizza
             Toppings = toppings;
         }
+
+        public override string ToString()
+        {
+            return "Margherita";
+        }
     }
 }

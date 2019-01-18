@@ -15,6 +15,7 @@ namespace InterfacesExample
             // Code for sample 2 obtained from Interfaces tutorial found at: http://www.newthinktank.com/2017/02/c-tutorial-10/
             Sample2();
 
+            Console.WriteLine(""); // To add a line break to make the output more readable
             Sample3();
         }
 
